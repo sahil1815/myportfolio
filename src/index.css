@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+@layer utilities {
+    .clip-path-custom {
+      clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
+    }
+    .clip-path-custom-2 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+      }
+    .clip-path-custom-3 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+      }
+  }
+
+
+@media (max-width: 1350px) {
+  /* This ensures the parent has a positioning context */
+  .timeline-entry {
+    position: relative;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  /* This vertically centers the circle */
+  .timeline-circle {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  /* --- Existing rules from the previous fix --- */
+  .timeline-entry .content-card {
+    margin-left: 4.5rem !important;
+    margin-right: 0 !important;
+    width: calc(100% - 4.5rem);
+  }
+
+  .timeline-entry:nth-child(even) .content-card {
+    margin-left: 4.5rem !important;
+  }
+
+  .vertical-line {
+    left: calc(1rem + 1.5rem) !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1350px) {
+  /*
+   * 1. Move the timeline circle further to the left.
+   * This pulls it away from the content card area.
+  */
+  .timeline-circle {
+    left: 0.5rem !important;
+  }
+
+  /*
+   * 2. Increase the left margin of the content card.
+   * This pushes the card further to the right, creating a clear
+   * gap for the timeline circle and vertical line.
+  */
+  .timeline-entry .content-card {
+    margin-left: 5.5rem !important;
+  }
+}
