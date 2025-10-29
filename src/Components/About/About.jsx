@@ -79,7 +79,7 @@ const About = () => {
             <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[2px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
           </div>
-          <div className="px-4 lg:px-8 py-5 flex justify-between items-center bg-gray-100 bg-[#000000]">
+          <div className="px-4 lg:px-8 py-5 flex justify-between items-center bg-[#000000]">
             <div className="flex flex-row space-x-2">
               <div className="h-3 w-3 rounded-full bg-red-500"></div>
               <div className="h-3 w-3 rounded-full bg-orange-400"></div>
