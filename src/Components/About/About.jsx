@@ -74,26 +74,26 @@ const About = () => {
         </div>
 
         {/* Right Side */}
-        <div className="h-full w-full max-w-xl mx-auto bg-gray-50 dark:from-[#000000] border-gray-200/50 dark:border-[#1b2c68a0] relative rounded-lg border dark:bg-gradient-to-r dark:to-[#0a0d37] shadow-lg min-w-0 px-2 sm:px-0">
+        <div className="h-full w-full max-w-xl mx-auto bg-gray-50 from-[#000000] border-gray-200/50 border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] shadow-lg min-w-0 px-2 sm:px-0">
           <div className="flex flex-row">
             <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[2px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
           </div>
-          <div className="px-4 lg:px-8 py-5 flex justify-between items-center bg-gray-100 dark:bg-[#000000]">
+          <div className="px-4 lg:px-8 py-5 flex justify-between items-center bg-gray-100 bg-[#000000]">
             <div className="flex flex-row space-x-2">
               <div className="h-3 w-3 rounded-full bg-red-500"></div>
               <div className="h-3 w-3 rounded-full bg-orange-400"></div>
               <div className="h-3 w-3 rounded-full bg-green-400"></div>
             </div>
-            <div className="text-xs text-gray-500 dark:text-gray-400 font-mono">
+            <div className="text-xs text-gray-500 text-gray-400 font-mono">
               coder.js
             </div>
           </div>
-          <div className="overflow-hidden border-t-[2px] border-gray-300 dark:border-indigo-900 px-4 lg:px-8 py-4 lg:py-8 relative">
-            <div className="absolute -top-24 -left-24 w-56 h-56 bg-blue-600 rounded-full opacity-5 dark:opacity-10 filter blur-3xl"></div>
-            <div className="absolute -bottom-24 -right-24 w-56 h-56 bg-pink-600 rounded-full opacity-5 dark:opacity-10 filter blur-3xl"></div>
+          <div className="overflow-hidden border-t-[2px] border-gray-300 border-indigo-900 px-4 lg:px-8 py-4 lg:py-8 relative">
+            <div className="absolute -top-24 -left-24 w-56 h-56 bg-blue-600 rounded-full opacity-5 opacity-10 filter blur-3xl"></div>
+            <div className="absolute -bottom-24 -right-24 w-56 h-56 bg-pink-600 rounded-full opacity-5 opacity-10 filter blur-3xl"></div>
             <div className="relative flex">
-              <div className="hidden md:flex flex-col items-end pr-4 text-gray-400 dark:text-gray-500 font-mono text-xs">
+              <div className="hidden md:flex flex-col items-end pr-4 text-gray-400 text-gray-500 font-mono text-xs">
                 <div className="leading-relaxed select-none opacity-70">1</div>
                 <div className="leading-relaxed select-none opacity-70">2</div>
                 <div className="leading-relaxed select-none opacity-70">3</div>
@@ -109,129 +109,129 @@ const About = () => {
               </div>
               <code className="font-mono text-xs md:text-sm lg:text-base w-full relative">
                 <div>
-                  <span className="mr-2 font-mono text-purple-700 dark:text-pink-400">
+                  <span className="mr-2 font-mono text-purple-700 text-pink-400">
                     const
                   </span>
-                  <span className="mr-2 text-blue-600 font-mono dark:text-violet-400">
+                  <span className="mr-2 text-blue-600 font-mono text-violet-400">
                     coder
                   </span>
-                  <span className="mr-2 text-purple-700 font-mono dark:text-pink-400">=</span>
-                  <span className="text-gray-500 dark:text-gray-400 font-mono">{"{"}</span>
+                  <span className="mr-2 text-purple-700 font-mono text-pink-400">=</span>
+                  <span className="text-gray-500 text-gray-400 font-mono">{"{"}</span>
                 </div>
                 <div className="pl-6">
-                  <span className="text-gray-800 dark:text-white font-mono">name: </span>
-                  <span className="text-gray-500 dark:text-gray-400 font-mono">'</span>
-                  <span className="text-emerald-600 dark:text-green-400 font-mono">
+                  <span className="text-gray-800 text-white font-mono">name: </span>
+                  <span className="text-gray-500 text-gray-400 font-mono">'</span>
+                  <span className="text-emerald-600 text-green-400 font-mono">
                     Sanzid Sahil
                   </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">',</span>
+                  <span className="text-gray-500 font-mono text-gray-400">',</span>
                 </div>
                 <div className="pl-6">
-                  <span className="text-gray-800 font-mono dark:text-white">role: </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                  <span className="text-emerald-600 font-mono dark:text-green-400">
+                  <span className="text-gray-800 font-mono text-white">role: </span>
+                  <span className="text-gray-500 font-mono text-gray-400">'</span>
+                  <span className="text-emerald-600 font-mono text-green-400">
                     Frontend Developer
                   </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">',</span>
+                  <span className="text-gray-500 font-mono text-gray-400">',</span>
                 </div>
                 <div className="pl-6">
-                  <span className="text-gray-800 font-mono dark:text-white">seniority: </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                  <span className="text-emerald-600 font-mono dark:text-green-400">
+                  <span className="text-gray-800 font-mono text-white">seniority: </span>
+                  <span className="text-gray-500 font-mono text-gray-400">'</span>
+                  <span className="text-emerald-600 font-mono text-green-400">
                     Junior
                   </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">',</span>
+                  <span className="text-gray-500 font-mono text-gray-400">',</span>
                 </div>
                 <div className="pl-6">
-                  <span className="text-gray-800 font-mono dark:text-white">location: </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                  <span className="text-emerald-600 font-mono dark:text-green-400">
+                  <span className="text-gray-800 font-mono text-white">location: </span>
+                  <span className="text-gray-500 font-mono text-gray-400">'</span>
+                  <span className="text-emerald-600 font-mono text-green-400">
                     Bangladesh
                   </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">',</span>
+                  <span className="text-gray-500 font-mono text-gray-400">',</span>
                 </div>
                 <div className="pl-6">
-                  <span className="text-gray-800 font-mono dark:text-white">email: </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                  <span className="text-emerald-600 font-mono dark:text-green-400">
+                  <span className="text-gray-800 font-mono text-white">email: </span>
+                  <span className="text-gray-500 font-mono text-gray-400">'</span>
+                  <span className="text-emerald-600 font-mono text-green-400">
                     sanzid.sahil.999@gmail.com 
                   </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">',</span>
+                  <span className="text-gray-500 font-mono text-gray-400">',</span>
                 </div>
                 <div className="pl-6">
-                  <span className="text-gray-800 font-mono dark:text-white">skills: </span>
-                  <span className="text-gray-500 font-mono dark:text-gray-400">[</span>
+                  <span className="text-gray-800 font-mono text-white">skills: </span>
+                  <span className="text-gray-500 font-mono text-gray-400">[</span>
                   <div className="pl-6 flex font-mono flex-wrap">
                     <span className="tech-item font-mono">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">React</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">TailwindCSS</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">NodeJS</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">CSS</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">HTML</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">Figma</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">Git</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">GitHub</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">JavaScript</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
                     </span>
                     <span className="tech-item">
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">TypeScript</span>
-                      <span className="text-gray-500 font-mono dark:text-gray-400">'</span>
+                      <span className="text-gray-500 font-mono text-gray-400">'</span>
                     </span>
                   </div>
                   <div className="pl-0">
-                    <span className="text-gray-500 font-mono dark:text-gray-400">],</span>
+                    <span className="text-gray-500 font-mono text-gray-400">],</span>
                   </div>
                 </div>
                 <div>
-                  <span className="text-gray-500 dark:text-gray-400 font-mono">{"};"}</span>
+                  <span className="text-gray-500 text-gray-400 font-mono">{"};"}</span>
                 </div>
               </code>
             </div>
-            <div className="mt-6 border-t border-gray-300 dark:border-gray-800 pt-3 text-xs text-gray-500 flex justify-between items-center">
+            <div className="mt-6 border-t border-gray-300 border-gray-800 pt-3 text-xs text-gray-500 flex justify-between items-center">
               <div className=" font-mono">UTF-8</div>
               <div className=" font-mono">JavaScript</div>
               <div className=" font-mono">Ln 14, Col 2</div>
