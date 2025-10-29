@@ -74,7 +74,7 @@ const About = () => {
         </div>
 
         {/* Right Side */}
-        <div className="h-full w-full max-w-xl mx-auto bg-gray-50 from-[#000000] border-gray-200/50 border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] shadow-lg min-w-0 px-2 sm:px-0">
+        <div className="h-full w-full max-w-xl mx-auto bg-gray-50 from-[#000000] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] shadow-lg min-w-0 px-2 sm:px-0">
           <div className="flex flex-row">
             <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[2px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
