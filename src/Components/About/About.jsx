@@ -28,32 +28,32 @@ const About = () => {
           {/* Brief Description */}
           <div className="text-gray-300 mt-6">
 
-            {/* Greeting */}
-          <h1 className="text-2xl sm:text-4xl font-bold text-white mb-2 leading-tight">
-            Hi, I am
-          </h1>
-          {/* Name */}
-          <h2 className="text-3xl sm:text-5xl font-bold text-white mb-4 leading-tight">
-            Sanzid Sahil
-          </h2>
-          {/* Skills Heading with Typing Effect */}
-          <h3 className="text-lg lg:text-2xl lg:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-            <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
-                'Frontened Developer',
-                'UI/UX Designer',
-                'Coder',
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
-            />
-          </h3>
+              {/* Greeting */}
+            <h1 className="text-2xl sm:text-4xl font-bold text-white mb-2 leading-tight">
+              Hi, I am
+            </h1>
+            {/* Name */}
+            <h2 className="text-3xl sm:text-5xl font-bold text-white mb-4 leading-tight">
+              Sanzid Sahil
+            </h2>
+            {/* Skills Heading with Typing Effect */}
+            <h3 className="text-lg lg:text-2xl lg:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+              <span className="text-white">I am a </span>
+              <ReactTypingEffect
+                text={[
+                  'Frontened Developer',
+                  'UI/UX Designer',
+                  'Coder',
+                ]}
+                speed={100}
+                eraseSpeed={50}
+                typingDelay={500}
+                eraseDelay={2000}
+                cursorRenderer={(cursor) => (
+                  <span className="text-[#8245ec]">{cursor}</span>
+                )}
+              />
+            </h3>
             <p>
               A passionate frontend developer dedicated to crafting amazing, user-friendly web applications. Skilled in HTML, CSS, JavaScript, and modern frameworks, I bring ideas to life through clean and efficient code
             </p>
@@ -63,7 +63,7 @@ const About = () => {
             href="https://drive.google.com/file/d/1YHxa_bTprnwYRLehkyT9riwBsr0Yo7jh/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            className="inline-block text-white py-3 px-8 rounded-full mt-6 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: 'linear-gradient(90deg, #8245ec, #a855f7)',
               boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
