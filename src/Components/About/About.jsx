@@ -93,23 +93,23 @@ const About = () => {
             <div className="absolute -top-24 -left-24 w-56 h-56 bg-blue-600 rounded-full opacity-5 opacity-10 filter blur-3xl"></div>
             <div className="absolute -bottom-24 -right-24 w-56 h-56 bg-pink-600 rounded-full opacity-5 opacity-10 filter blur-3xl"></div>
             <div className="relative flex">
-              <div className="hidden md:flex flex-col items-end pr-4 text-gray-400 text-gray-500 font-mono text-xs">
-                <div className="leading-relaxed select-none opacity-70">1</div>
-                <div className="leading-relaxed select-none opacity-70">2</div>
-                <div className="leading-relaxed select-none opacity-70">3</div>
-                <div className="leading-relaxed select-none opacity-70">4</div>
-                <div className="leading-relaxed select-none opacity-70">5</div>
-                <div className="leading-relaxed select-none opacity-70">6</div>
-                <div className="leading-relaxed select-none opacity-70">7</div>
-                <div className="leading-relaxed select-none opacity-70">8</div>
-                <div className="leading-relaxed select-none opacity-70">9</div>
-                <div className="leading-relaxed select-none opacity-70">10</div>
-                <div className="leading-relaxed select-none opacity-70">11</div>
-                <div className="leading-relaxed select-none opacity-70">12</div>
+              <div className="hidden md:flex flex-col items-end pr-4 text-gray-400 text-gray-500 text-xs">
+                <div className="leading-relaxed select-none opacity-70 font-mono">1</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">2</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">3</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">4</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">5</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">6</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">7</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">8</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">9</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">10</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">11</div>
+                <div className="leading-relaxed select-none opacity-70 font-mono">12</div>
               </div>
               <code className="font-mono text-xs md:text-sm lg:text-base w-full relative">
                 <div>
-                  <span className="mr-2 font-mono text-purple-700 text-pink-400">
+                  <span className="mr-2 font-mono text-pink-400">
                     const
                   </span>
                   <span className="mr-2 text-blue-600 font-mono text-violet-400">
@@ -166,55 +166,55 @@ const About = () => {
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">React</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">TailwindCSS</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">NodeJS</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">,</span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">CSS</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">HTML</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">Figma</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">Git</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">GitHub</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
                       <span className="text-cyan-400 font-mono">JavaScript</span>
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
-                      <span className="text-gray-500 font-mono text-gray-400 mr-3">, </span>
+                      <span className="text-gray-500 font-mono text-gray-400 ">, </span>
                     </span>
                     <span className="tech-item">
                       <span className="text-gray-500 font-mono text-gray-400">'</span>
