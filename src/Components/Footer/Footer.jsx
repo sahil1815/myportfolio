@@ -2,8 +2,8 @@ import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
-
-  const linkedin = "https://www.linkedin.com/in/md-sanzid-alam-sahil-a95508355/";
+  const linkedin =
+    "https://www.linkedin.com/in/md-sanzid-alam-sahil-a95508355/";
   const github = "https://github.com/sahil1815";
   const facebook = "https://www.facebook.com/sahil99876";
   const socialX = "https://x.com/Sahil200506";
@@ -28,8 +28,9 @@ const Footer = () => {
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
             { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
+            { name: "Projects", id: "work" },
             { name: "Education", id: "education" },
+            { name: "Contact", id: "contact" },
           ].map((item, index) => (
             <button
               key={index}
@@ -51,7 +52,6 @@ const Footer = () => {
 
             // { icon: <FaInstagram />, link: "" },
             // { icon: <FaYoutube />, link: "" },
-            
           ].map((item, index) => (
             <a
               key={index}

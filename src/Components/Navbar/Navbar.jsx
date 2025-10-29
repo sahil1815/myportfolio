@@ -38,11 +38,12 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "contact", label: "Contact" },
   ];
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw]  lg:px-[20vw] 
+      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[4vw]  lg:px-[10vw] xl:px-[13vw]
       ${
         isScrolled
           ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
@@ -61,7 +62,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:text-sm xl:text-base md:flex space-x-8 lg:space-x-8 md:space-x-5 text-gray-300">
           {menuItems.map((item) => (
             <li
               key={item.id}
