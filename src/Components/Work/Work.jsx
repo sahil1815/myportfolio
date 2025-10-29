@@ -66,8 +66,9 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+        <div className="fixed inset-0 z-50 flex xl:items-center items-start justify-center bg-black bg-opacity-90 p-4">
+          <div className="bg-gray-900 rounded-xl shadow-2xl xl:w-full w-[100%] md:w-[90%] lg:w-[60%] max-w-3xl overflow-hidden relative max-h-[100vh] xl:max-h-[110vh] flex flex-col">
+            {/*  */}
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -77,19 +78,23 @@ const Work = () => {
               </button>
             </div>
 
-            <div className="flex flex-col">
+            {/* Scrollable Content */}
+            <div className="flex flex-col overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900">
+
+              {/* Image Container */}
               <div className="w-full flex justify-center bg-gray-900 px-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                  className="xl:w-full w-[95%] object-contain rounded-xl shadow-2xl"
                 />
               </div>
               <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                <h3 className="xl:text-3xl md:text-2xl font-bold text-white mb-4 xl:mb-4 md:mb-3 mt-0 xl:mt-0 md:-mt-2 text-md">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                {/* Project Description */}
+                <p className="text-gray-400 mb-6 xl:text-base lg:text-sm text-xs overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-800">
                   {selectedProject.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
