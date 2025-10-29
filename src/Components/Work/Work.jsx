@@ -67,7 +67,7 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex xl:items-center items-start justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl xl:w-full w-[100%] md:w-[90%] lg:w-[60%] max-w-3xl overflow-hidden relative max-h-[100vh] xl:max-h-[110vh] flex flex-col">
+          <div className="bg-gray-900 rounded-xl shadow-2xl xl:w-full w-[100%] md:w-[90%] lg:w-[60%] max-w-xl overflow-hidden relative max-h-[90vh] flex flex-col">
             {/*  */}
             <div className="flex justify-end p-4">
               <button
@@ -94,7 +94,7 @@ const Work = () => {
                   {selectedProject.title}
                 </h3>
                 {/* Project Description */}
-                <p className="text-gray-400 mb-6 xl:text-base lg:text-sm text-xs overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-800">
+                <p className="text-gray-400 mb-6 xl:mb-6 md:mb-5 md:-mt-1 mt-0 xl:mt-0 xl:text-base lg:text-sm text-xs overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-800">
                   {selectedProject.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
