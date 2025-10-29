@@ -154,7 +154,7 @@ export const projects = [
   {
     id: 0,
     title: "Weather App",
-    description: `This project is a modern, responsive weather application built with React, designed to provide a clean and intuitive user experience. It features a dynamic display for current conditions, a detailed five-day forecast, and a "Today's Highlights" section for metrics like humidity and wind speed. The application's core is its responsive, two-column layout, which adapts seamlessly across desktop and mobile devices. This design ensures complex weather data is presented in an elegant, easy-to-digest format, prioritizing user-centric design and data clarity.`,
+    description: `A modern, responsive React weather app with a clean, user-friendly interface. It shows current conditions, a 5-day forecast, and “Today’s Highlights” like humidity and wind speed. Its adaptive two-column layout ensures clear, elegant presentation across all devices.`,
     image: weatherApp,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
     github: "https://github.com/sahil1815/weather-app",
@@ -164,7 +164,7 @@ export const projects = [
     id: 1,
     title: "Hungry Snake",
     description:
-      "This is a fully responsive and fully functional interactive Snake game built using HTML, CSS, and JavaScript. The game features smooth controls, a dynamic scoring system, and an engaging interface that adapts seamlessly to different screen sizes. It’s designed to provide a fun and challenging experience while showcasing my skills in front-end development, game logic, and interactive UI design.",
+      "A fully responsive and interactive Snake game built with HTML, CSS, and JavaScript. It features smooth controls, dynamic scoring, and an adaptive design that delivers a fun, challenging experience while showcasing my front-end and game logic skills.",
     image: snake,
     tags: [
       "HTML",
@@ -178,7 +178,7 @@ export const projects = [
     id: 2,
     title: "Tic-Tac-Toe",
     description:
-      "This is a fully interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game allows two players to play in turns, with a clear interface that highlights winning combinations and prevents invalid moves. It demonstrates my skills in JavaScript logic, DOM manipulation, and responsive UI design, offering a simple yet engaging gaming experience for users of all ages.",
+      "A fully interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. It features turn-based play, highlights winning moves, and prevents invalid actions — showcasing my skills in JavaScript logic, DOM manipulation, and responsive UI design.",
     image: ticTac,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/sahil1815/Tic-Tac-Toe",
@@ -188,7 +188,7 @@ export const projects = [
     id: 3,
     title: "Currency Converter",
     description:
-      "This is a fully functional Currency Converter web app built using HTML, CSS, and JavaScript. The app allows users to convert amounts between multiple currencies in real-time, fetching up-to-date exchange rates using an external API. It showcases my skills in API integration, DOM manipulation, JavaScript logic, and responsive design, providing a practical and user-friendly tool for everyday use.",
+      "A fully functional Currency Converter web app built with HTML, CSS, and JavaScript. It fetches real-time exchange rates via an API and enables seamless currency conversions, showcasing my skills in API integration, JavaScript logic, and responsive design.",
     image: currencyConvert,
     tags: ["HTML", "CSS", "JavaScript", "API"],
     github: "https://github.com/sahil1815/Currency-Converter",
@@ -198,7 +198,7 @@ export const projects = [
     id: 4,
     title: "Business Name Generator",
     description:
-      "This is a Business Name Generator web app built using HTML, CSS, and JavaScript. The app helps users generate creative and unique business name ideas. It demonstrates my skills in JavaScript logic, DOM manipulation, and interactive UI design, offering a simple yet effective tool for brainstorming and entrepreneurship.",
+      "A Business Name Generator web app built with HTML, CSS, and JavaScript. It generates creative, unique name ideas and showcases my skills in JavaScript logic, DOM manipulation, and interactive UI design.",
     image: busiNameGenerator,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/sahil1815/Business-Name-Generator",
@@ -208,7 +208,7 @@ export const projects = [
     id: 5,
     title: "Hacker's Terminal",
     description:
-      "This is a Hacker’s Terminal web app built using HTML, CSS, and JavaScript. While it’s purely visual and doesn’t execute real commands, it simulates the look and feel of a hacker’s terminal, providing an engaging and interactive interface. This project demonstrates my skills in UI design, CSS styling, and creating immersive user experiences.",
+      "A Hacker’s Terminal web app built with HTML, CSS, and JavaScript that visually simulates a hacker’s console. Though non-functional, it offers an engaging, interactive interface showcasing my skills in UI design, CSS styling, and immersive user experiences.",
     image: hckTerm,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/sahil1815/Hacker-s-Terminal",
@@ -218,7 +218,7 @@ export const projects = [
     id: 6,
     title: "Ecommerce Website UI",
     description:
-      "This is a simple eCommerce website clone built using HTML and CSS. While basic in functionality, it replicates the look and feel of an online store, including product listings and a clean layout. This project demonstrates my skills in responsive design, layout structuring, and front-end development fundamentals.",
+      "A simple E-Commerce website clone built with HTML and CSS, replicating an online store’s layout and product listings. It highlights my skills in responsive design, layout structuring, and front-end development basics.",
     image: poorEcomm,
     tags: ["HTML", "CSS"],
     github: "https://github.com/sahil1815/PoorEcommerce-Website",
